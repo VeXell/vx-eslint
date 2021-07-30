@@ -20,7 +20,14 @@ module.exports = {
         semi: ['error', 'always'],
         'comma-dangle': 'off',
         quotes: ['error', 'single', { allowTemplateLiterals: true }],
-        'space-before-function-paren': ['error', 'never'],
+        'space-before-function-paren': [
+            'error',
+            {
+                anonymous: 'always',
+                named: 'never',
+                asyncArrow: 'always',
+            },
+        ],
     },
     overrides: [
         {
