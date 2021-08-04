@@ -3,6 +3,7 @@ module.exports = {
         browser: true,
         es2021: true,
     },
+    plugins: ['prettier', '@typescript-eslint', 'react-hooks'],
     extends: [
         'standard',
         'eslint:recommended',
@@ -14,7 +15,6 @@ module.exports = {
         ecmaVersion: 12,
         sourceType: 'module',
     },
-    plugins: ['@typescript-eslint'],
     rules: {
         indent: 'off',
         semi: ['error', 'always'],
