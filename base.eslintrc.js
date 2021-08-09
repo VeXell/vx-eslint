@@ -31,7 +31,7 @@ module.exports = {
         indent: 'off',
         semi: ['error', 'always'],
         'comma-dangle': 'off',
-        quotes: ['error', 'single', { allowTemplateLiterals: true }],
+        quotes: ['error', 'single', { allowTemplateLiterals: true, avoidEscape: true }],
         'space-before-function-paren': [
             'error',
             {
