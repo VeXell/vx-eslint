@@ -54,8 +54,10 @@ module.exports = {
         '@typescript-eslint/no-unused-expressions': ['error'],
         '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/no-empty-interface': 'warn',
+
         'react/forbid-component-props': 'off',
         'react/display-name': 'off',
+        'react/prop-types': 'off',
     },
     overrides: [
         {
