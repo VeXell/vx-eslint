@@ -44,6 +44,7 @@ module.exports = {
         'no-unused-expressions': 'off',
         'no-empty-pattern': 'off',
         camelcase: 'warn',
+        'spaced-comment': 'off',
 
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
