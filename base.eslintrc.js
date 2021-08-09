@@ -9,11 +9,23 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'prettier',
+        'plugin:react/recommended',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaVersion: 12,
         sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true,
+        },
+    },
+    settings: {
+        react: {
+            createClass: 'createReactClass',
+            pragma: 'React',
+            fragment: 'Fragment',
+            version: 'detect',
+        },
     },
     rules: {
         indent: 'off',
@@ -31,7 +43,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['*.js', '*.jsx'],
+            files: ['*.jsx'],
             rules: {
                 '@typescript-eslint/no-var-requires': 'off',
             },
