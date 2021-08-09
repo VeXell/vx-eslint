@@ -43,6 +43,7 @@ module.exports = {
         'no-use-before-define': 'off',
         'no-unused-expressions': 'off',
         'no-empty-pattern': 'off',
+        camelcase: 'warn',
 
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
