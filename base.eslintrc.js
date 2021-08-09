@@ -40,10 +40,12 @@ module.exports = {
                 asyncArrow: 'always',
             },
         ],
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': ['error'],
     },
     overrides: [
         {
-            files: ['*.jsx'],
+            files: ['*.tsx', '*.ts'],
             rules: {
                 '@typescript-eslint/no-var-requires': 'off',
             },
