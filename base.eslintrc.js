@@ -41,7 +41,20 @@ module.exports = {
             },
         ],
         'no-use-before-define': 'off',
-        '@typescript-eslint/no-use-before-define': ['error'],
+        'no-unused-expressions': 'off',
+        'no-empty-pattern': 'off',
+
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
+        '@typescript-eslint/no-inferrable-types': 'off',
+        '@typescript-eslint/consistent-type-assertions': 'error',
+        '@typescript-eslint/no-unused-vars': [2, { vars: 'all', args: 'after-used' }],
+        '@typescript-eslint/no-unused-expressions': ['error'],
+        '@typescript-eslint/ban-types': 'off',
+        '@typescript-eslint/no-empty-interface': 'warn',
+        'react/forbid-component-props': 'off',
+        'react/display-name': 'off',
     },
     overrides: [
         {
