@@ -65,8 +65,6 @@ module.exports = {
             files: ['*.tsx', '*.ts'],
             rules: {},
         },
-    ],
-    overrides: [
         {
             files: ['*.js', '*.jsx'],
             rules: {
