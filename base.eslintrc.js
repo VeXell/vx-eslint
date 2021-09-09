@@ -63,6 +63,12 @@ module.exports = {
     overrides: [
         {
             files: ['*.tsx', '*.ts'],
+            rules: {},
+        },
+    ],
+    overrides: [
+        {
+            files: ['*.js', '*.jsx'],
             rules: {
                 '@typescript-eslint/no-var-requires': 'off',
             },
