@@ -10,6 +10,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'prettier',
         'plugin:react/recommended',
+        'react-hooks',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -59,6 +60,8 @@ module.exports = {
         'react/forbid-component-props': 'off',
         'react/display-name': 'off',
         'react/prop-types': 'off',
+        'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'warn',
     },
     overrides: [
         {
